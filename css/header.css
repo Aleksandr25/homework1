@@ -1,0 +1,42 @@
+.header {
+    background-color: #000000;
+    max-width: 100%;
+}
+
+.header-block {
+    padding-top: 23px;
+    padding-bottom: 22px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header-logo {
+    background: url(/icon/Logo.png);
+    background-repeat: no-repeat;
+    width: 79px;
+    height: 27px;
+}
+
+.header-nav__list {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav__item {
+    margin-left: 48px;
+    
+}
+.header-nav__link {
+    text-decoration: none;
+    opacity: 0.69;
+    color: #ffffff;
+    font-family: "Open Sans - Semibold";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}

@@ -1,0 +1,167 @@
+.pricing {
+    background-color: #f5f5f5;
+}
+
+.pricing-block {
+    margin-top: 105px;
+}
+
+.pricing-block__title {
+    color: #212121;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 43px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pricing-block__title::after {
+    display: block;
+    border-bottom: 3px solid #ff8b38;
+    width: 74px;
+    content: ' ';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+    margin-bottom: 35px;
+}
+
+.pricing-block__text {
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 62px;
+    margin-bottom: 80px;
+}
+
+.pricing-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.pricing-row div:nth-child(2) {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.pricing-column {
+    margin-bottom: 96px;
+    width: 343px;
+}
+
+.pricing-column__item-first {
+    background-color: #333333;
+    border: 1px solid #f5f5f5;
+}
+
+.pricing-column__title {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+.pricing-column__item-second {
+    background-color: #333333;
+    border: 1px solid #f5f5f5;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.pricing-column__price {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 94px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.dollar {
+    font-size: 35px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    font-family: Raleway;
+    color: #ffffff;
+}
+
+.pricing-column__item-third {
+    background-color: #333333;
+    border-bottom: 2px solid #ff8b38;
+}
+
+.pricing-column__item-third-noborder {
+    background-color: #333333;
+}
+
+.pricing-column__subtitle {
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Open Sans - Semibold";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 19px;
+}
+
+.pricing-column__item-about {
+    background-color: #ffffff;
+    border: 1px solid #f5f5f5;
+}
+
+.pricing-column__text {
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.pricing-column__item-background {
+    background-color: #ff8b38;
+    border: 1px solid #f5f5f5;
+}
+
+.pricing-column__text-orange {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 13px;
+    padding-bottom: 15px;
+}

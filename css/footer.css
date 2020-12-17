@@ -1,0 +1,38 @@
+footer {
+    height: 100px;
+    background-color: black;
+}
+
+.list-nav {
+    width: 317px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.list-nav__social {
+    margin-top: 32px;
+    font-size: 24px;
+}
+
+i {
+    color: #cccccc;
+}
+
+.footer-copy {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.copyright {
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}

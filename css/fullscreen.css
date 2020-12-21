@@ -1,5 +1,4 @@
 .fullscreen {
-    
     background: url(/background/fullscreen.png);
     background-position: top center;
     background-repeat: no-repeat;
@@ -8,7 +7,8 @@
     min-height: calc(100vh - 71px);
     background-color: #000000;
 }
-.fullscreen-wrapper{
+
+.fullscreen-wrapper {
     display: flex;
     justify-content: space-between;
 }
@@ -74,7 +74,6 @@
 .button-download {
     text-decoration: none;
     color: white;
-    
 }
 
 .fullscreen-content {
@@ -115,8 +114,6 @@ input {
     padding-left: 15px;
     outline: none;
 }
-
-
 
 .fullscreen__list-item {
     color: #bdbdbd;

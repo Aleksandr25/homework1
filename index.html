@@ -62,13 +62,15 @@
                     </div>
                     <div class="fullscreen-content">
                         <h3 class="fullscreen-content__title">Try Your <span class="free">FREE</span> Trial Today</h3>
-                        <form action="#" method="GET" class="fulscreen-form">
+                        <form action="#" method="POST" class="fulscreen-form">
                             <ul class="fullscreen__list">
                                 <li class="fullscreen__list-item"></li>
-                                <input type="text" id="name" name='user_name' placeholder="Name" required>
+                                <input type="text" id="name" name='user_name' class="fullscreen__input"
+                                    placeholder="Name" required>
                                 </li>
                                 <li class="fullscreen__list-item">
-                                    <input type="email" id="mail" name='user_mail' placeholder="E-mail" required>
+                                    <input type="email" id="mail" name='user_mail' class="fullscreen__input"
+                                        placeholder="E-mail" required>
                                 </li>
                                 <li class="fullscreen__list-item">
                                     <input class="fullscreen__password" type="password" id="password"
@@ -107,6 +109,65 @@
                 </div>
             </div>
         </section>
+        <section class="country">
+            <div class="container">
+                <div class="country-wrapper">
+                    <div class="tabs">
+                        <input class="tab-input" id="tab1" type="radio" name="tabs" checked>
+                        <label class="tab-label lab-1" for="tab1">tab 1</label>
+                        <input class="tab-input" id="tab2" type="radio" name="tabs">
+                        <label class="tab-label lab-2" for="tab2">tab 2</label>
+                        <input class="tab-input" id="tab3" type="radio" name="tabs">
+                        <label class="tab-label lab-3" for="tab3">tab 3</label>
+                        <div class="tab-content content-1">
+                            <div class="country-content">
+                                <h3 class="country__title">Tabs with soft transitioning effect.</h3>
+                                <p class="country__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                                    penatibus et magnis dis parturient montes.
+
+                                </p>
+                                <button class="country__button">
+                                    Download
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="tab-content content-2">
+                            <div class="country-content">
+                                <h3 class="country__title">Tabs with soft transitioning effect.</h3>
+                                <p class="country__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                                    justo commodo. </p>
+                                <button class="country__button">
+                                    Download
+                                </button>
+                            </div>
+                        </div>
+                        <div class="tab-content content-3">
+                            <div class="country-content">
+                                <h3 class="country__title">Tabs with soft transitioning effect.</h3>
+                                <p class="country__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                                    justo commodo. Proin sodales pulvinar tempor. </p>
+                                <button class="country__button">
+                                    Download
+                                </button>
+                            </div>
+                        </div>
+                        <div class="country-img">
+                            <img src="/icon/country.png.png" alt="NY" class="country-img__item">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         <section class="awesome">
             <div class="container">
                 <div class="awesome-block">

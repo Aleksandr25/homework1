@@ -105,7 +105,7 @@
     background-color: #ffffff;
 }
 
-input {
+.fullscreen__input {
     width: 285px;
     height: 31px;
     border: none;
@@ -126,6 +126,13 @@ input {
 }
 
 .fullscreen__password {
+    width: 285px;
+    height: 31px;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    margin-top: 36px;
+    padding-left: 15px;
+    outline: none;
     margin-bottom: 50px;
 }
 

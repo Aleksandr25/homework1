@@ -27,8 +27,6 @@
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 20px;
     text-align: center;
     margin-bottom: 80px;
@@ -50,15 +48,13 @@
 
 .contact-list__item {
     color: #bdbdbd;
-font-family: "Open Sans";
-font-size: 14px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-width: 527px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    width: 527px;
 }
-.list__item{
+
+.list__item {
     width: 527px;
 }
 
@@ -67,15 +63,13 @@ width: 527px;
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
     border: none;
     border-bottom: 1px solid #cccccc;
     resize: none;
     margin-top: 40px;
 }
-.contact__button{
+
+.contact__button {
     width: 148px;
     height: 46px;
     border: none;
